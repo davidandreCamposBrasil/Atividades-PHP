@@ -1,0 +1,19 @@
+
+
+Exercicio 5:
+
+<?php
+
+//declarei a variavel e ja dei scanf(readline)
+
+$nota1 = (float) readline("Escreva a primeira nota\n");
+
+$nota2 = (float) readline("Escreva a segunda nota\n");
+
+$nota3 = (float) readline("Escreva a terceira nota\n");
+
+$media = ($nota1 + $nota2 + $nota3)/3;
+
+//printei e coloquei um parametro para ser um numero EX: 2.00 e não só 2
+
+echo "O resultado da media seria $media\n" . number_format($media, 2, '.','') .  "\n";
