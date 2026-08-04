@@ -1,0 +1,23 @@
+<?php
+
+//declarei a variavel junto com um scanf(Readline)
+
+$nome = readline("Digite seu nome\n");
+
+//printei a variavel
+
+echo "\nSeja bem-vindo(a), $nome\n";
+
+Exercicio 4:
+
+<?php
+
+//declarei na variavel e em seguida com readline eu pedi para guardar na variavel
+
+$numero1 = (int) readline("Digite o primeiro numero inteiro\n");
+
+$numero2 = (int) readline("Digite o primeiro numero inteiro\n");
+
+$resultado = $numero1 + $numero2;
+
+echo "\nA soma entre $numero1 e $numero2 seria $resultado\n";
