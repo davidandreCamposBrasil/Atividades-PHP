@@ -1,0 +1,19 @@
+//declarei a variavel junto com um scanf(Readline)
+
+$nome = readline("Digite seu nome\n");
+
+$idade = (int) readline("Digite sua idade:\n");
+
+$altura = (float) readline ("Digite sua altura\n");
+
+$estudante = readline("È estudante? (s/n)\n");
+
+//vou printar a variavel
+
+echo "\nNome: $nome\n";
+
+echo "\nIdade: $idade anos\n";
+
+echo "\nAltura: $altura m\n";
+
+echo "\nÉ Estudante?\n" . ($estudante == "sim"? "Sim": "Não");
